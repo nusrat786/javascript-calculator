@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="input" id="input"></div>
+		<div class="button">
+		<div class="operators">
+			<div onclick="pushBtn(this);">+</div>
+			<div onclick="pushBtn(this);">-</div>
+			<div onclick="pushBtn(this);">*</div>
+			<div onclick="pushBtn(this);">/</div>
+		</div>
+		<div class="leftPanel">
+			
+			<div class="numbers" id="numbers">
+				<div onclick="pushBtn(this);">7</div>
+				<div onclick="pushBtn(this);">8</div>
+				<div onclick="pushBtn(this);">9</div>
+			</div>
+
+			<div class="numbers">
+				<div onclick="pushBtn(this);">4</div>
+				<div onclick="pushBtn(this);">5</div>
+				<div onclick="pushBtn(this);">6</div>
+			</div>
+
+			<div class="numbers">
+				<div onclick="pushBtn(this);">1</div>
+				<div onclick="pushBtn(this);">2</div>
+				<div onclick="pushBtn(this);">3</div>
+			</div>
+
+			<div class="numbers">
+				<div onclick="pushBtn(this);">0</div>
+				<div onclick="pushBtn(this);">.</div>
+				<div id="clear" onclick="pushBtn(this);">C</div>
+			</div>
+			
+		</div>
+		<div class="equal" id="result" onclick="pushBtn(this);">=</div>
+
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
